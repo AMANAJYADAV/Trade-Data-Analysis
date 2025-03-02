@@ -1,0 +1,30 @@
+
+### Binance Trade Analysis Report
+
+#### Data Overview
+- Number of Accounts: 149
+- Number of Trades: 211277
+
+#### Key Metrics Computed
+- ROI (Return on Investment)
+- PnL (Profit and Loss)
+- Sharpe Ratio (Risk-adjusted return measure)
+- Maximum Drawdown (MDD - Risk assessment metric)
+- Win Rate (Percentage of profitable trades)
+- Win Positions & Total Positions
+
+#### Ranking Methodology
+A weighted ranking system was used:
+- ROI: 30%
+- PnL: 20%
+- Sharpe Ratio: 20%
+- MDD: -10% (negative weight as it's a risk metric)
+- Win Rate: 20%
+
+#### Findings
+- The top 20 performing accounts based on ranking are saved in `top_20_accounts.csv`.
+- The full calculated metrics are saved in `calculated_metrics.csv`.
+- Additional visualizations provide insights into ROI and Sharpe Ratio distributions.
+
+#### Conclusion
+This analysis provides a comprehensive ranking of Binance trading accounts based on multiple financial performance metrics.
